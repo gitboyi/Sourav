@@ -1,3 +1,62 @@
-h1{
-    color: red;
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 30px;
+}
+nav li{
+    list-style-type: none;
+}
+section{
+    background: #ddd;
+    text-align: center;
+}
+footer{
+    overflow: hidden;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+}
+.profile-image {
+    height: 200px;
+    position: relative;
+    right: -80px; /* Move the image further to the right */
+    overflow: hidden;
+    float: right;
+    clip-path: inset(0 50% 0 0); /* Show only half of the image */
+}
+.social-image{
+    height: 30px;
+    margin-bottom: 10px;
 }
